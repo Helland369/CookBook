@@ -96,12 +96,12 @@ public class InOutPut
         }
     }
 
-    private void DontUseToManyConsoleWriteLine(string input)
-    {   
-        input = input.ToUpper();
+    // private void DontUseToManyConsoleWriteLine(string input)
+    // {   
+    //     input = input.ToUpper();
         
-        Console.WriteLine($"Write what the text you want to replace the current text of {input} with");
-    }
+    //     Console.WriteLine($"Write what the text you want to replace the current text of {input} with");
+    // }
     
     private void EditTextInRecipe()
     {
@@ -121,49 +121,49 @@ public class InOutPut
         Recipe selectedRecipe = _recipes[input - 1];
         if (String.Equals(inputRecipieItem, "name", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Recipe name");
+            Console.WriteLine("Recipe name");
             editedText = Console.ReadLine();
             selectedRecipe.NameOfRecipe = editedText;
             editedText = "";
         } 
         else if (String.Equals(inputRecipieItem, "Category", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Category");
+            Console.WriteLine("Category");
             editedText = Console.ReadLine();
             selectedRecipe.Category = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Description", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Description");
+            Console.WriteLine("Description");
             editedText = Console.ReadLine();
             selectedRecipe.Description = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient1", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Ingredient 1");
+            Console.WriteLine("Ingredient 1");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient1 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient2", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Ingredient 2");
+            Console.WriteLine("Ingredient 2");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient2 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient3", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Ingredient 3");
+            Console.WriteLine("Ingredient 3");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient3 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient4", StringComparison.OrdinalIgnoreCase))
         {
-            DontUseToManyConsoleWriteLine("Ingredient 4");
+            Console.WriteLine("Ingredient 4");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient4 = editedText;
             editedText = "";
