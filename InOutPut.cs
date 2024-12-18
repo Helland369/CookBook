@@ -95,13 +95,6 @@ public class InOutPut
                               $"Ingredient4: {selectedRecipe.Ingredient4}\n");
         }
     }
-
-    // private void DontUseToManyConsoleWriteLine(string input)
-    // {   
-    //     input = input.ToUpper();
-        
-    //     Console.WriteLine($"Write what the text you want to replace the current text of {input} with");
-    // }
     
     private void EditTextInRecipe()
     {
