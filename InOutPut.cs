@@ -114,49 +114,49 @@ public class InOutPut
         Recipe selectedRecipe = _recipes[input - 1];
         if (String.Equals(inputRecipieItem, "name", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Recipe name");
+            Console.WriteLine("Write what the text you want to replace the current text of Recipe name with");
             editedText = Console.ReadLine();
             selectedRecipe.NameOfRecipe = editedText;
             editedText = "";
         } 
         else if (String.Equals(inputRecipieItem, "Category", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Category");
+            Console.WriteLine("Write what the text you want to replace the current text of Category with");
             editedText = Console.ReadLine();
             selectedRecipe.Category = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Description", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Description");
+            Console.WriteLine("Write what the text you want to replace the current text of Description with");
             editedText = Console.ReadLine();
             selectedRecipe.Description = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient1", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Ingredient 1");
+            Console.WriteLine("Write what the text you want to replace the current text of Ingredient 1 with");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient1 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient2", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Ingredient 2");
+            Console.WriteLine("Write what the text you want to replace the current text of Ingredient 2 with");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient2 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient3", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Ingredient 3");
+            Console.WriteLine("Write what the text you want to replace the current text of Ingredient 3 with");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient3 = editedText;
             editedText = "";
         }
         else if (String.Equals(inputRecipieItem, "Ingredient4", StringComparison.OrdinalIgnoreCase))
         {
-            Console.WriteLine("Ingredient 4");
+            Console.WriteLine("Write what the text you want to replace the current text of Ingredient 4 with");
             editedText = Console.ReadLine();
             selectedRecipe.Ingredient4 = editedText;
             editedText = "";
